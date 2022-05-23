@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardBackgroundColor="@color/white"
+    android:layout_margin="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:id="@+id/textView_phonetics"
+            android:layout_width="0dp"
+            android:layout_weight="9"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textColor="@color/grey"
+            android:textSize="18sp"
+            android:text="ha-lo" >
+        </TextView>
+        <ImageButton
+            android:id="@+id/audio_button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_audio_button"
+            android:background="@android:color/transparent">
+        </ImageButton>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

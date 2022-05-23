@@ -4,6 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/waisheen/Orbital/dictionary/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/waisheen/Orbital/dictionary/app/src/main/res/layout/definitions_list.xml" value="0.1721311475409836" />
+        <entry key="..\:/waisheen/Orbital/dictionary/app/src/main/res/layout/meanings_list.xml" value="0.1721311475409836" />
+        <entry key="..\:/waisheen/Orbital/dictionary/app/src/main/res/layout/meanings_list_items.xml" value="0.1721311475409836" />
+        <entry key="..\:/waisheen/Orbital/dictionary/app/src/main/res/layout/phonetics_list.xml" value="0.1721311475409836" />
+        <entry key="..\:/waisheen/Orbital/dictionary/app/src/main/res/layout/phonetics_list_items.xml" value="0.2" />
       </map>
     </option>
   </component>
