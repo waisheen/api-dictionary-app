@@ -42,7 +42,7 @@ public class PhoneticsAdapter extends RecyclerView.Adapter<PhoneticViewHolder> {
                 MediaPlayer player = new MediaPlayer();
                 try {
                     player.setAudioStreamType(AudioManager.STREAM_MUSIC);
-                    player.setDataSource("https:" + phoneticsList.get(position).getAudio());
+                    player.setDataSource(phoneticsList.get(position).getAudio());
                     player.prepare();
                     player.start();
                 } catch (Exception e) {

@@ -33,10 +33,10 @@ public class Definition {
     }
 
     public List<String> getSynonyms() {
-        return synonyms;
+        return this.synonyms;
     }
 
     public List<String> getAntonyms() {
-        return antonyms;
+        return this.antonyms;
     }
 }
