@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
     };
 
     private void showData(APIResponse apiResponse) {
-        textView_word.setText("Word: " + apiResponse.getWord());
+        textView_word.setText(apiResponse.getWord());
 
         recycler_phonetics.setHasFixedSize(true);
         recycler_phonetics.setLayoutManager(new GridLayoutManager(this, 1));
