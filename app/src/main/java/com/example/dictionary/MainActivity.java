@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
         progressDialog.setTitle("Loading...");
         progressDialog.show();
         RequestManager manager = new RequestManager(MainActivity.this);
-        manager.getWordMeaning(listener, "hello");
+        manager.getWordMeaning(listener, "big");
 
 
         search_view.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
