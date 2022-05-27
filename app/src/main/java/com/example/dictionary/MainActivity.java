@@ -7,7 +7,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.app.ProgressDialog;
 import android.os.Bundle;
-import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 

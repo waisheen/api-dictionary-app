@@ -45,21 +45,13 @@
                 android:textColor="@color/white"
                 android:textAlignment="center">
             </TextView>
+
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recycler_phonetics"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
             </androidx.recyclerview.widget.RecyclerView>
 
-            <TextView
-                android:id="@+id/textView_meaning"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="24sp"
-                android:text="Meaning"
-                android:textColor="@color/white"
-                android:textAlignment="center">
-            </TextView>
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recycler_meaning"
                 android:layout_width="match_parent"

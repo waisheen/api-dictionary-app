@@ -34,19 +34,6 @@ public class DefinitionAdapter extends RecyclerView.Adapter<DefinitionViewHolder
     public void onBindViewHolder(@NonNull DefinitionViewHolder holder, int position) {
         holder.textView_definition.setText("Definition: " + definitionList.get(position).getDefinition());
         holder.textView_example.setText("Example: " + definitionList.get(position).getExample());
-
-
-        //System.out.print(definitionList.get(position).getExample());
-        //System.out.println("test");
-        //StringBuilder synonyms = new StringBuilder(500);
-        //StringBuilder antonyms = new StringBuilder(500);
-        //synonyms.append(definitionList.get(position).getSynonyms());
-        //antonyms.append(definitionList.get(position).getAntonyms());
-        //holder.textView_synonyms.setText(synonyms);
-        //holder.textView_antonyms.setText(antonyms);
-
-        //holder.textView_synonyms.setSelected(true);
-        //holder.textView_antonyms.setSelected(true);
     }
 
     @Override
