@@ -3,11 +3,11 @@ package com.example.dictionary.Components;
 import java.util.List;
 
 public class Meaning {
-    String partsOfSpeech = "";
+    String partOfSpeech = "";
     List<Definition> definitions = null;
 
     public void setPartsOfSpeech(String partsOfSpeech) {
-        this.partsOfSpeech = partsOfSpeech;
+        this.partOfSpeech = partsOfSpeech;
     }
 
     public void setDefinitions(List<Definition> definitions) {
@@ -15,7 +15,7 @@ public class Meaning {
     }
 
     public String getPartsOfSpeech() {
-        return this.partsOfSpeech;
+        return this.partOfSpeech;
     }
 
     public List<Definition> getDefinitions() {
